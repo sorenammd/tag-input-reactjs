@@ -7,13 +7,13 @@ TageInput is a reusable React component that allows users to input and manage ta
 You can install the TageInput component as a package using npm or yarn:
 
 ```bash
-npm install tage-input
+npm install tag-input-reactjs
 ```
 
 or
 
 ```bash
-yarn add tage-input
+yarn add tag-input-reactjs
 ```
 
 ## Usage
