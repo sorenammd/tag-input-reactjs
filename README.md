@@ -25,11 +25,11 @@ import React, { useState } from "react";
 import TageInput from "tage-input";
 
 function YourComponent() {
-  const [tags, setTags] = useState([]);
+  const [tags, setTags] = useState({ yourTagName: [] });
 
   return (
     <div>
-      <TageInput tags={tags} setTags={setTags} type="yourTagType" />
+      <TageInput tags={tags} setTags={setTags} name="yourTagName" />
     </div>
   );
 }
@@ -37,17 +37,17 @@ function YourComponent() {
 export default YourComponent;
 ```
 
-Make sure to replace `"yourTagType"` with the appropriate tag type you want to manage.
+Make sure to replace `"yourTagName"` with the appropriate tag type you want to manage.
 
 ## Props
 
 The TageInput component accepts the following props:
 
-- `tags` (object): An object that contains the tags to be displayed and managed. The structure should be `{ [tagType]: [tags] }`.
+- `tags` (object): An object that contains the tags to be displayed and managed. The structure should be `{ [tagName]: [tags] }`.
 
 - `setTags` (function): A function to update the tags when they are modified. It should accept the updated tags in the same format as the `tags` prop.
 
-- `type` (string): The type of tags to manage. This should correspond to the key in the `tags` object.
+- `name` (string): The name of tags to manage. This should correspond to the key in the `tags` object.
 
 - `error` (boolean, optional): A boolean value that can be used to indicate an error state. If set to `true`, the component will display a red border.
 

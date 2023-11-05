@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./style.css";
-const TageInput = ({ tags, setTags, type,error }:any) => {
+const TageInput = ({ tags, setTags, name,error }:any) => {
   const refInput = useRef(null);
   const handleInputChange = (e:any) => {
     const inputValue = e.target.value.trim();
@@ -8,7 +8,7 @@ const TageInput = ({ tags, setTags, type,error }:any) => {
       if (inputValue.endsWith(",")) {
         setTags((prevState:any) => ({
           ...prevState,
-          [type]: [...prevState[type], inputValue.slice(0, -1)],
+          [name]: [...prevState[name], inputValue.slice(0, -1)],
         }));
         e.target.value = "";
       }
@@ -20,7 +20,7 @@ const TageInput = ({ tags, setTags, type,error }:any) => {
     if (inputValue !== "") {
       setTags((prevState:any) => ({
         ...prevState,
-        [type]: [...prevState[type], inputValue],
+        [name]: [...prevState[name], inputValue],
       }));
       e.target.value = "";
     }
@@ -30,7 +30,7 @@ const TageInput = ({ tags, setTags, type,error }:any) => {
     newItems.splice(index, 1); // Remove the item by its index
     setTags((prevState:any) => ({
       ...prevState,
-      [type]: newItems,
+      [name]: newItems,
     }));
   };
 
