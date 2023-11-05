@@ -25,7 +25,7 @@ import React, { useState } from "react";
 import TageInput from "tage-input";
 
 function YourComponent() {
-  const [tags, setTags] = useState({ yourTagType: [] });
+  const [tags, setTags] = useState([]);
 
   return (
     <div>
