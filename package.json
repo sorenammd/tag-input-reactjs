@@ -1,12 +1,16 @@
 {
   "name": "tag-input-reactjs",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "babel": {  
     "presets": [  
       "@babel/preset-react"   
     ] 
   }, 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorenammd/tag-input-reactjs"
+  },
   "keywords": [
     "tag",
     "tag-input",
