@@ -17,6 +17,7 @@ yarn add tag-input-reactjs
 ```
 
 ## Usage
+![image](https://github.com/sorenammd/tag-input-reactjs/assets/107199800/73515473-ab39-4522-9a93-a873d14acbff)
 
 Once you've installed the package, you can import the TagInput component into your React application and use it as follows:
 
