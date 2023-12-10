@@ -29,7 +29,7 @@ function YourComponent() {
 
   return (
     <div>
-      <TagInput tags={tags?.yourTagType} setTags={setTags} type="yourTagType" error={false} />
+      <TagInput tags={tags?.yourTagType} setTags={setTags} name="yourTagType" error={false} />
     </div>
   );
 }
@@ -44,6 +44,8 @@ Make sure to replace `"yourTagType"` with the appropriate tag type you want to m
 The TagInput component accepts the following props:
 
 - `tags` (object): An object that contains the tags to be displayed and managed. The structure should be `{ [tagType]: [tags] }`.
+
+- `name` (string): The type of tags to manage. This should correspond to the key in the `tags` object.
 
 - `setTags` (function): A function to update the tags when they are modified. It should accept the updated tags in the same format as the `tags` prop.
 
