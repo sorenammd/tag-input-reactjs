@@ -47,8 +47,6 @@ The TagInput component accepts the following props:
 
 - `setTags` (function): A function to update the tags when they are modified. It should accept the updated tags in the same format as the `tags` prop.
 
-- `type` (string): The type of tags to manage. This should correspond to the key in the `tags` object.
-
 - `error` (boolean, optional): A boolean value that can be used to indicate an error state. If set to `true`, the component will display a red border.
 
 ## Functionality
