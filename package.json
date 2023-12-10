@@ -1,27 +1,28 @@
 {
-  "name": "tag-input-reactjs",
-  "version": "0.1.8",
-  "main": "src/index.tsx",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "react",
-    "tag input"
-  ],
-  "author": "Mohammad Mohammadi",
-  "license": "MIT",
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^6.15.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sorenammd/tag-input-reactjs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sorenammd/tag-input-reactjs/issues"
-  },
-  "homepage": "https://github.com/sorenammd/tag-input-reactjs#readme",
-  "description": ""
-}
+    "name": "tag-input-reactjs",
+    "version": "0.2.0",
+    "main": "dist/index.js",
+    "types": "src/index.tsx",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc && npm run build-css",
+      "build-css": "your-css-build-command-here"
+    },
+    "keywords": ["react", "tag input"],
+    "author": "Mohammad Mohammadi",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sorenammd/tag-input-reactjs.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sorenammd/tag-input-reactjs/issues"
+    },
+    "homepage": "https://github.com/sorenammd/tag-input-reactjs#readme",
+    "description": ""
+  }
+  

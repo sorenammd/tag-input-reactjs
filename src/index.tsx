@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./style.css";
+import "../style.css";
 const TagInput = ({ tags, setTags, name,error }:any) => {
   const refInput = useRef(null);
   const handleInputChange = (e:any) => {

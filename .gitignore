@@ -1,0 +1,26 @@
+# Dependency directories
+/node_modules
+
+# Compiled files
+/dist
+/lib
+/build
+
+# Environment files
+.env
+
+# IDE files
+/.vscode
+/.idea
+
+# User-specific files
+*.log
+*.iml
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
