@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./style.css";
-const TageInput = ({ tags, setTags, name,error }:any) => {
+const TagInput = ({ tags, setTags, name,error }:any) => {
   const refInput = useRef(null);
   const handleInputChange = (e:any) => {
     const inputValue = e.target.value.trim();
@@ -55,4 +55,4 @@ const TageInput = ({ tags, setTags, name,error }:any) => {
   );
 };
 
-export default TageInput;
+export default TagInput;
