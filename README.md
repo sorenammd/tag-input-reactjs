@@ -78,6 +78,6 @@ This component is open-source and is available under the MIT License. You can fi
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/your-repo/issues) on GitHub.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/sorenammd/tag-input-reactjs/issues) on GitHub.
 
 Thank you for using TagInput! We hope it adds value to your React application.
